@@ -1,0 +1,37 @@
+body {
+    background: rgb(163, 157, 157);
+}
+
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+.changecolorbtn{
+    background: rgb(228, 228, 61);
+    color: black;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+.changecolorbtn:hover {
+    background-color: hsl(120, 83%, 24%);
+    color: rgb(238, 231, 231); 
+  }
+.colorgrid{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.selectedcolor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.colorvalue{
+    margin-left: 5px;
+    font-weight: bold;
+}
