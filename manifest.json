@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "color picker",
-    "description": "a color picking extension",
+    "name": "Chroma Selector",
+    "description": "Simplify color picking with our intuitive extension",
     "version": "1.0",
     "background": {
         "service_worker": "background.js"
@@ -14,8 +14,8 @@
         "scripting"
     ],
     "icons": {
-        "16": "/image/picker_16.png",
-        "32": "/image/picker_32.png",
-        "48": "/image/picker_48.png"
+        "16": "/image/picker.png",
+        "32": "/image/picker.png",
+        "48": "/image/picker.png"
     }
 }
