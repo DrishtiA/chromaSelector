@@ -9,6 +9,23 @@ Chroma Selector is a color picking extension that simplifies the process of sele
 - Copy color value: Easily copy the color value to your clipboard with a single click.
 - Works across webpages: Capture colors from any webpage you are currently browsing.
 
+## Interface
+1. Chrome selector extension in the tab.
+
+   ![WhatsApp Image 2023-07-12 at 11 32 26](https://github.com/DrishtiA/chromaSelector/assets/106471875/6505567d-9f1d-422b-a763-245a49893ad3)
+
+2. Interface of the extension.
+   
+   ![Screenshot (25)](https://github.com/DrishtiA/chromaSelector/assets/106471875/687427c2-8e12-41fb-9932-caedf9c4fe18)
+
+3. Click on pick color to capture colors from webpage.
+   
+   ![Screenshot (27)](https://github.com/DrishtiA/chromaSelector/assets/106471875/696326b7-b06d-43a9-b55d-6f4c25bde519)
+
+4. The selected color appears on the extension and it's code gets copied.
+   
+   ![Screenshot (28)](https://github.com/DrishtiA/chromaSelector/assets/106471875/78d99bb5-ba61-46c5-95dc-e68f7eecb432)
+  
 ## Installation
 1. Clone or download the repository to your local machine.
 2. Open the Chrome browser and navigate to `chrome://extensions`.
