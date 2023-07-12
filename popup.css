@@ -1,24 +1,40 @@
 body {
-    background: rgb(163, 157, 157);
+    background: linear-gradient(45deg, 
+        hsl(0, 85%, 90%), /* Red */
+        hsl(30, 85%, 90%), /* Orange */
+        hsl(60, 85%, 90%), /* Yellow */
+        hsl(120, 85%, 90%), /* Green */
+        hsl(240, 85%, 90%), /* Blue */
+        hsl(270, 85%, 90%), /* Indigo */
+        hsl(300, 85%, 90%), /* Violet */
+        hsl(0, 85%, 90%) /* Red */
+    );
 }
 
 .wrapper {
     width: 300px;
     text-align: center;
 }
+h2 {
+    font-family: 'Times New Roman', Times, serif ;
+}
 .changecolorbtn{
-    background: rgb(228, 228, 61);
-    color: black;
+    background: rgb(9, 68, 68);
+    color: rgb(246, 247, 241);
     width: 200px;
     outline: none;
-    border: none;
+    border: 1px;
+    border-color:rgb(10, 10, 10);
     border-radius: 2px;
     padding: 5px;
+    font-weight: bolder; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 .changecolorbtn:hover {
-    background-color: hsl(120, 83%, 24%);
-    color: rgb(238, 231, 231); 
+    background-color: rgb(248, 245, 245);
+    color: rgb(11, 12, 6);
+    border: 2px solid black;
   }
 .colorgrid{
     display: inline-block;
@@ -33,5 +49,5 @@ body {
 }
 .colorvalue{
     margin-left: 5px;
-    font-weight: bold;
+    font-weight: bolder;
 }
